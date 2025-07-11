@@ -31,24 +31,30 @@ if (isset($_GET['id'])) {
 
     // اجرای کوئری
     $sql = "SELECT * FROM users WHERE id='$id' LIMIT 0,1";
-    $result = mysqli_query($connection, $sql);
+    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-    if ($result) {
-        $row = mysqli_fetch_array($result);
+    try {
+        $result = mysqli_query($connection, $sql);
 
-        if ($row) {
-            echo '<font color= "#0000ff">';
-            echo 'Your Login name: ' . $row['username'] . "<br>";
-            echo 'Your Password: ' . $row['password'];
-            echo '</font>';
-        } else {
-            echo '<font color="#900">No user found.</font>';
+        if ($result) {
+            $row = mysqli_fetch_array($result);
+
+            if ($row) {
+                echo '<font color="#0000ff">';
+                echo 'Your Login name: ' . $row['username'] . "<br>";
+                echo 'Your Password: ' . $row['password'];
+                echo '</font>';
+            } else {
+                echo '<font color="#900">No user found.</font>';
+            }
         }
-    } else {
-        echo '<font color="#900">' . mysqli_error($connection) . '</font>';
+    } catch (mysqli_sql_exception $e) {
+        mysqli_close($connection);
+        echo '<font size="5" color="#900">' . $e->getMessage() . '</font>';
     }
 
-    mysqli_close($connection);
+
+
 } else {
     echo "Please input the ID as parameter with numeric value";
 }

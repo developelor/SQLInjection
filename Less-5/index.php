@@ -32,25 +32,21 @@ fclose($fp);
 
 
 $sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
-$result=mysqli_query($con, $sql);
-$row = mysqli_fetch_array($result);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+try {
+    $result = mysqli_query($con, $sql);
+    $row = mysqli_fetch_array($result);
 
-	if($row)
-	{
-  	echo '<font size="5" color="#900">';	
-  	echo 'You are in...........';
-  	echo "<br>";
-    	echo "</font>";
-  	}
-	else 
-	{
-	
-	echo '<font size="3" color="#900">';
-	print_r(mysqli_error($con));
-	echo "</br></font>";	
-	echo '<font color= "#0000ff" font size= 3>';	
-	
-	}
+    if ($row) {
+        echo '<font size="5" color="#900">';	
+        echo 'You are in...........<br>';
+        echo "</font>";
+    }
+} catch (mysqli_sql_exception $e) {
+    echo '<font size="5" color="#900">';
+    echo $e->getMessage();  // فقط متن خطای MySQL
+    echo "</br></font>";
+}
 }
 	else { echo "Please input the ID as parameter with numeric value";}
 

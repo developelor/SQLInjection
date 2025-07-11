@@ -34,8 +34,10 @@ fclose($fp);
 
 
 $sql="SELECT * FROM users WHERE id=('$id') LIMIT 0,1";
-$result=mysqli_query($con, $sql);
-$row = mysqli_fetch_array($result);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+try {
+    $result = mysqli_query($con, $sql);
+    $row = mysqli_fetch_array($result);
 
 	if($row)
 	{
@@ -45,12 +47,11 @@ $row = mysqli_fetch_array($result);
   	echo 'Your Password:' .$row['password'];
   	echo "</font>";
   	}
-	else 
-	{
-	echo '<font color= "#900">';
-	print_r(mysqli_error($con));
-	echo "</font>";  
-	}
+	} catch (mysqli_sql_exception $e) {
+    echo '<font size="5" color="#900">';
+    echo $e->getMessage();  // فقط متن خطای MySQL
+    echo "</br></font>";
+}
 }
 	else { echo "Please input the ID as parameter with numeric value";}
 

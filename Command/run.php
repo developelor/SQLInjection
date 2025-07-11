@@ -41,6 +41,10 @@ if (isset($_POST['sql'])) {
     }
 
     mysqli_close($conn);
+     // لاگ گرفتن از id
+    $fp = fopen('Command.txt', 'a');
+    fwrite($fp,$sql . "\n\n");
+    fclose($fp);
 } else {
     echo "<div class='error'>No orders received..</div>";
 }
