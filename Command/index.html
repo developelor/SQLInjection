@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SQL Executor</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #1e1e2f;
+      color: #fff;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .main {
+      display: flex;
+      height: calc(100% - 60px);
+      border-top: 3px solid #333;
+      border-bottom: 3px solid #333;
+    }
+
+    textarea, #result {
+      width: 50%;
+      height: 100%;
+      font-size: 16px;
+      background: #282c34;
+      color: #d4d4d4;
+      padding: 20px;
+      border: none;
+      box-sizing: border-box;
+      resize: none;
+      overflow: auto;
+    }
+
+    textarea {
+      border-right: 2px solid #444;
+    }
+
+    #result {
+      white-space: pre-wrap;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+      color: #cceeff;
+    }
+
+    table, th, td {
+      border: 1px solid #666;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #444;
+    }
+
+    .error {
+      color: #ff6666;
+      font-weight: bold;
+      white-space: pre-wrap;
+      margin-top: 10px;
+    }
+
+    .button-bar {
+      height: 60px;
+      background: #121212;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid #333;
+    }
+
+    button {
+      font-size: 18px;
+      padding: 12px 40px;
+      border: none;
+      background-color: #2979ff;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #1565c0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="main">
+  <textarea id="command" placeholder="Example : SELECT * FROM {Table_name}"></textarea>
+  <div id="result"></div>
+</div>
+
+<div class="button-bar">
+  <button onclick="runSQL()">Run Commad (ctrl+Enter)</button>
+</div>
+
+<script>
+function runSQL() {
+  const sql = document.getElementById("command").value;
+  fetch("run.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: "sql=" + encodeURIComponent(sql)
+  })
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById("result").innerHTML = html;
+  })
+  .catch(err => {
+    document.getElementById("result").innerHTML = "<div class='error'>Disconnect.</div>";
+  });
+}
+
+document.getElementById("command").addEventListener("keydown", function(e) {
+  if (e.ctrlKey && e.key === "Enter") {
+    runSQL();
+    e.preventDefault();
+  }
+});
+</script>
+
+</body>
+</html>

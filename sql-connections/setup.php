@@ -59,17 +59,17 @@ mysqli_query($con, "
     INSERT INTO users (username, password) VALUES
     ('mmp', '123'),
     ('mohammad', 'mahmoudi'),
-    ('rajesh', 'kumar'),
-    ('guru', 'guru2'),
-    ('thing', 'noun'),
-    ('thor', 'brave'),
-    ('avenger', 'heros'),
-    ('admin', 'admin'),
+    ('ahmad', '@nasj'),
+    ('saman', 'guran'),
+    ('adel', 'ferdousipur'),
+    ('javad', 'khiabani'),
+    ('hotan', 'shakiba'),
     ('admin1', 'admin1'),
     ('admin2', 'admin2'),
     ('admin3', 'admin3'),
-    ('holy', 'cow'),
-    ('admin4', 'admin4')
+    ('admin4', 'admin4'),
+    ('admin5', 'admin5'),
+    ('cow', 'ma_ma_ma_ma')
 ");
 echo "[8] Inserting sample emails...\n";
 flush();
