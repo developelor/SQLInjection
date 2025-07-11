@@ -14,7 +14,6 @@
     <font size="3" color="#666666">
       
    <?php
-   phpinfo();
 
 // اتصال به دیتابیس (اگه از قبل نیست)
 $connection = mysqli_connect("localhost", "root", "", "security");
